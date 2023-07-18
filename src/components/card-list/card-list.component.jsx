@@ -4,9 +4,6 @@ import './card-list.styles.css'
 import Card from "../card/card.component"
 
 class CardList extends Component {
-  constructor() {
-    super()
-  }
 
   render() {
     const {monsters} = this.props
